@@ -1,0 +1,61 @@
+# SQL Scripts
+
+Some of the SQL scripts that I have developed to make my live and the lives of our customers easier.
+
+## Included Scripts
+
+### sp_RestoreDBFromBackUp
+
+A utility to restore a database from a backup file. The restored database can be renamed and the associated files can be moved during this process as well. If the database exists, it will be overwritten. This script is typically used for testing backups and for creating/restoring a test environment.
+
+### spClient_GetAll
+
+A utility script that select all the built-in dbo.Client.
+
+### spClient_Insert 
+
+A utility script that upgrades the built-in dbo.Client.
+
+### spClient_GetByService
+
+A utility script that save all the built-in dbo.ServiceEntries by client unique identifier. If you put in a ServiceID value, the script searches for that value in object (dbo.Client).
+
+### spAgreements_GetByClient
+
+A utility script that save all the built-in dbo.Agreements by client unique identifier. If you put in a ClientID value, the script searches for that value in object (dbo.Agreements). 
+
+### spAgreements_Insert
+
+A utility script that upgrades the built-in dbo.Agreements.
+
+### spRepair_Insert
+
+A utility script that upgrades the built-in dbo.Repair.
+
+### spRepairs_GetByService
+
+A utility script that save all the built-in dbo.Repair by service unique identifier. If you put in a ServiceID value, the script searches for that value in object (dbo.Service). 
+
+### spService_Insert
+
+A utility script that upgrades the built-in dbo.Service.
+
+### spServiceEntries_Insert
+
+A utility script that upgrades the built-in dbo.ServiceEntries.
+
+### spServiceRepairs_Insert
+
+A utility script that upgrades the built-in dbo.ServiceRepairs.
+
+### spServices_GetAll
+
+A utility script that select all (active) built-in dbo.Service.
+
+### spVehicle_GetAll
+
+A utility script that select all the built-in dbo.Vehicle.
+
+### spVehicle_Insert
+
+A utility script that upgrades the built-in dbo.Vehicle.
