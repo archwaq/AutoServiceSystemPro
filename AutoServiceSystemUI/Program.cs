@@ -19,7 +19,7 @@ namespace AutoServiceSystemUI
             Application.SetCompatibleTextRenderingDefault(false);
 
             // Initialize the database connections
-            AutoServiceSystemLibrary.GlobalConfig.InitializeConnections(DatabaseType.TextFile);
+            AutoServiceSystemLibrary.GlobalConfig.InitializeConnections(DatabaseType.Sql);
             Application.Run(new CreateServiceForm());
         }
     }
