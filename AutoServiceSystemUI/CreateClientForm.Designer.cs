@@ -63,6 +63,7 @@ namespace AutoServiceSystemUI
             this.clientVehicleListBox = new System.Windows.Forms.ListBox();
             this.removeSelectedVehicleButton = new System.Windows.Forms.Button();
             this.createClientButton = new System.Windows.Forms.Button();
+            this.createNewVehicleLink = new System.Windows.Forms.LinkLabel();
             this.vehicleAcquisitionGroupBox.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -73,7 +74,7 @@ namespace AutoServiceSystemUI
             this.headerLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.headerLabel.Location = new System.Drawing.Point(29, 25);
             this.headerLabel.Name = "headerLabel";
-            this.headerLabel.Size = new System.Drawing.Size(258, 59);
+            this.headerLabel.Size = new System.Drawing.Size(209, 47);
             this.headerLabel.TabIndex = 1;
             this.headerLabel.Text = "Create Client";
             // 
@@ -84,7 +85,7 @@ namespace AutoServiceSystemUI
             this.clientFirstNameValue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.clientFirstNameValue.Location = new System.Drawing.Point(577, 182);
             this.clientFirstNameValue.Name = "clientFirstNameValue";
-            this.clientFirstNameValue.Size = new System.Drawing.Size(270, 34);
+            this.clientFirstNameValue.Size = new System.Drawing.Size(270, 29);
             this.clientFirstNameValue.TabIndex = 4;
             // 
             // clientFirstNameLabel
@@ -94,7 +95,7 @@ namespace AutoServiceSystemUI
             this.clientFirstNameLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.clientFirstNameLabel.Location = new System.Drawing.Point(577, 151);
             this.clientFirstNameLabel.Name = "clientFirstNameLabel";
-            this.clientFirstNameLabel.Size = new System.Drawing.Size(106, 28);
+            this.clientFirstNameLabel.Size = new System.Drawing.Size(86, 21);
             this.clientFirstNameLabel.TabIndex = 3;
             this.clientFirstNameLabel.Text = "First Name";
             // 
@@ -105,7 +106,7 @@ namespace AutoServiceSystemUI
             this.clientPersonalIdentificationNumberValue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.clientPersonalIdentificationNumberValue.Location = new System.Drawing.Point(577, 582);
             this.clientPersonalIdentificationNumberValue.Name = "clientPersonalIdentificationNumberValue";
-            this.clientPersonalIdentificationNumberValue.Size = new System.Drawing.Size(270, 34);
+            this.clientPersonalIdentificationNumberValue.Size = new System.Drawing.Size(270, 29);
             this.clientPersonalIdentificationNumberValue.TabIndex = 6;
             // 
             // clientPersonalIndentificationNumberLabel
@@ -115,7 +116,7 @@ namespace AutoServiceSystemUI
             this.clientPersonalIndentificationNumberLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.clientPersonalIndentificationNumberLabel.Location = new System.Drawing.Point(577, 551);
             this.clientPersonalIndentificationNumberLabel.Name = "clientPersonalIndentificationNumberLabel";
-            this.clientPersonalIndentificationNumberLabel.Size = new System.Drawing.Size(282, 28);
+            this.clientPersonalIndentificationNumberLabel.Size = new System.Drawing.Size(225, 21);
             this.clientPersonalIndentificationNumberLabel.TabIndex = 5;
             this.clientPersonalIndentificationNumberLabel.Text = "Personal Identification Number";
             // 
@@ -126,7 +127,7 @@ namespace AutoServiceSystemUI
             this.clientNationalCardNumberValue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.clientNationalCardNumberValue.Location = new System.Drawing.Point(577, 514);
             this.clientNationalCardNumberValue.Name = "clientNationalCardNumberValue";
-            this.clientNationalCardNumberValue.Size = new System.Drawing.Size(270, 34);
+            this.clientNationalCardNumberValue.Size = new System.Drawing.Size(270, 29);
             this.clientNationalCardNumberValue.TabIndex = 8;
             // 
             // clientNationalCardNumberLabel
@@ -136,7 +137,7 @@ namespace AutoServiceSystemUI
             this.clientNationalCardNumberLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.clientNationalCardNumberLabel.Location = new System.Drawing.Point(577, 483);
             this.clientNationalCardNumberLabel.Name = "clientNationalCardNumberLabel";
-            this.clientNationalCardNumberLabel.Size = new System.Drawing.Size(210, 28);
+            this.clientNationalCardNumberLabel.Size = new System.Drawing.Size(168, 21);
             this.clientNationalCardNumberLabel.TabIndex = 7;
             this.clientNationalCardNumberLabel.Text = "National Card Number";
             // 
@@ -147,7 +148,7 @@ namespace AutoServiceSystemUI
             this.clientEmailValue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.clientEmailValue.Location = new System.Drawing.Point(577, 444);
             this.clientEmailValue.Name = "clientEmailValue";
-            this.clientEmailValue.Size = new System.Drawing.Size(270, 34);
+            this.clientEmailValue.Size = new System.Drawing.Size(270, 29);
             this.clientEmailValue.TabIndex = 10;
             // 
             // clientEmailLabel
@@ -157,7 +158,7 @@ namespace AutoServiceSystemUI
             this.clientEmailLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.clientEmailLabel.Location = new System.Drawing.Point(577, 413);
             this.clientEmailLabel.Name = "clientEmailLabel";
-            this.clientEmailLabel.Size = new System.Drawing.Size(59, 28);
+            this.clientEmailLabel.Size = new System.Drawing.Size(48, 21);
             this.clientEmailLabel.TabIndex = 9;
             this.clientEmailLabel.Text = "Email";
             // 
@@ -168,7 +169,7 @@ namespace AutoServiceSystemUI
             this.clientAddressValue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.clientAddressValue.Location = new System.Drawing.Point(577, 377);
             this.clientAddressValue.Name = "clientAddressValue";
-            this.clientAddressValue.Size = new System.Drawing.Size(270, 34);
+            this.clientAddressValue.Size = new System.Drawing.Size(270, 29);
             this.clientAddressValue.TabIndex = 12;
             // 
             // clientAddressLabel
@@ -178,7 +179,7 @@ namespace AutoServiceSystemUI
             this.clientAddressLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.clientAddressLabel.Location = new System.Drawing.Point(577, 346);
             this.clientAddressLabel.Name = "clientAddressLabel";
-            this.clientAddressLabel.Size = new System.Drawing.Size(82, 28);
+            this.clientAddressLabel.Size = new System.Drawing.Size(66, 21);
             this.clientAddressLabel.TabIndex = 11;
             this.clientAddressLabel.Text = "Address";
             // 
@@ -189,7 +190,7 @@ namespace AutoServiceSystemUI
             this.clientCellphoneNumberValue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.clientCellphoneNumberValue.Location = new System.Drawing.Point(577, 313);
             this.clientCellphoneNumberValue.Name = "clientCellphoneNumberValue";
-            this.clientCellphoneNumberValue.Size = new System.Drawing.Size(270, 34);
+            this.clientCellphoneNumberValue.Size = new System.Drawing.Size(270, 29);
             this.clientCellphoneNumberValue.TabIndex = 14;
             // 
             // clientCellPhoneLabel
@@ -199,7 +200,7 @@ namespace AutoServiceSystemUI
             this.clientCellPhoneLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.clientCellPhoneLabel.Location = new System.Drawing.Point(577, 282);
             this.clientCellPhoneLabel.Name = "clientCellPhoneLabel";
-            this.clientCellPhoneLabel.Size = new System.Drawing.Size(105, 28);
+            this.clientCellPhoneLabel.Size = new System.Drawing.Size(84, 21);
             this.clientCellPhoneLabel.TabIndex = 13;
             this.clientCellPhoneLabel.Text = "Cellphone ";
             // 
@@ -210,7 +211,7 @@ namespace AutoServiceSystemUI
             this.clientLastNameValue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.clientLastNameValue.Location = new System.Drawing.Point(577, 248);
             this.clientLastNameValue.Name = "clientLastNameValue";
-            this.clientLastNameValue.Size = new System.Drawing.Size(270, 34);
+            this.clientLastNameValue.Size = new System.Drawing.Size(270, 29);
             this.clientLastNameValue.TabIndex = 16;
             // 
             // clientLastNameLabel
@@ -220,7 +221,7 @@ namespace AutoServiceSystemUI
             this.clientLastNameLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.clientLastNameLabel.Location = new System.Drawing.Point(577, 217);
             this.clientLastNameLabel.Name = "clientLastNameLabel";
-            this.clientLastNameLabel.Size = new System.Drawing.Size(103, 28);
+            this.clientLastNameLabel.Size = new System.Drawing.Size(84, 21);
             this.clientLastNameLabel.TabIndex = 15;
             this.clientLastNameLabel.Text = "Last Name";
             // 
@@ -243,7 +244,7 @@ namespace AutoServiceSystemUI
             this.selectVehicleAcquisitionLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.selectVehicleAcquisitionLabel.Location = new System.Drawing.Point(87, 144);
             this.selectVehicleAcquisitionLabel.Name = "selectVehicleAcquisitionLabel";
-            this.selectVehicleAcquisitionLabel.Size = new System.Drawing.Size(187, 38);
+            this.selectVehicleAcquisitionLabel.Size = new System.Drawing.Size(146, 30);
             this.selectVehicleAcquisitionLabel.TabIndex = 18;
             this.selectVehicleAcquisitionLabel.Text = "Select Vehicle";
             // 
@@ -254,7 +255,7 @@ namespace AutoServiceSystemUI
             this.selectVehicleAcquisitionDropDown.FormattingEnabled = true;
             this.selectVehicleAcquisitionDropDown.Location = new System.Drawing.Point(94, 183);
             this.selectVehicleAcquisitionDropDown.Name = "selectVehicleAcquisitionDropDown";
-            this.selectVehicleAcquisitionDropDown.Size = new System.Drawing.Size(355, 45);
+            this.selectVehicleAcquisitionDropDown.Size = new System.Drawing.Size(355, 38);
             this.selectVehicleAcquisitionDropDown.TabIndex = 17;
             // 
             // vehicleAcquisitionGroupBox
@@ -299,7 +300,7 @@ namespace AutoServiceSystemUI
             this.vehicleModelValue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.vehicleModelValue.Location = new System.Drawing.Point(43, 302);
             this.vehicleModelValue.Name = "vehicleModelValue";
-            this.vehicleModelValue.Size = new System.Drawing.Size(267, 34);
+            this.vehicleModelValue.Size = new System.Drawing.Size(267, 29);
             this.vehicleModelValue.TabIndex = 9;
             // 
             // vehicleModelLabel
@@ -308,7 +309,7 @@ namespace AutoServiceSystemUI
             this.vehicleModelLabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.vehicleModelLabel.Location = new System.Drawing.Point(43, 271);
             this.vehicleModelLabel.Name = "vehicleModelLabel";
-            this.vehicleModelLabel.Size = new System.Drawing.Size(69, 28);
+            this.vehicleModelLabel.Size = new System.Drawing.Size(54, 21);
             this.vehicleModelLabel.TabIndex = 8;
             this.vehicleModelLabel.Text = "Model";
             // 
@@ -319,7 +320,7 @@ namespace AutoServiceSystemUI
             this.vehicleColorValue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.vehicleColorValue.Location = new System.Drawing.Point(43, 370);
             this.vehicleColorValue.Name = "vehicleColorValue";
-            this.vehicleColorValue.Size = new System.Drawing.Size(267, 34);
+            this.vehicleColorValue.Size = new System.Drawing.Size(267, 29);
             this.vehicleColorValue.TabIndex = 7;
             // 
             // vehicleMakeLabel
@@ -328,7 +329,7 @@ namespace AutoServiceSystemUI
             this.vehicleMakeLabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.vehicleMakeLabel.Location = new System.Drawing.Point(43, 203);
             this.vehicleMakeLabel.Name = "vehicleMakeLabel";
-            this.vehicleMakeLabel.Size = new System.Drawing.Size(60, 28);
+            this.vehicleMakeLabel.Size = new System.Drawing.Size(48, 21);
             this.vehicleMakeLabel.TabIndex = 6;
             this.vehicleMakeLabel.Text = "Make";
             // 
@@ -339,7 +340,7 @@ namespace AutoServiceSystemUI
             this.vehiclePlateValue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.vehiclePlateValue.Location = new System.Drawing.Point(43, 166);
             this.vehiclePlateValue.Name = "vehiclePlateValue";
-            this.vehiclePlateValue.Size = new System.Drawing.Size(267, 34);
+            this.vehiclePlateValue.Size = new System.Drawing.Size(267, 29);
             this.vehiclePlateValue.TabIndex = 5;
             // 
             // vehiclePlateLabel
@@ -348,7 +349,7 @@ namespace AutoServiceSystemUI
             this.vehiclePlateLabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.vehiclePlateLabel.Location = new System.Drawing.Point(43, 135);
             this.vehiclePlateLabel.Name = "vehiclePlateLabel";
-            this.vehiclePlateLabel.Size = new System.Drawing.Size(55, 28);
+            this.vehiclePlateLabel.Size = new System.Drawing.Size(44, 21);
             this.vehiclePlateLabel.TabIndex = 4;
             this.vehiclePlateLabel.Text = "Plate";
             // 
@@ -359,7 +360,7 @@ namespace AutoServiceSystemUI
             this.vehicleMakeValue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.vehicleMakeValue.Location = new System.Drawing.Point(43, 234);
             this.vehicleMakeValue.Name = "vehicleMakeValue";
-            this.vehicleMakeValue.Size = new System.Drawing.Size(267, 34);
+            this.vehicleMakeValue.Size = new System.Drawing.Size(267, 29);
             this.vehicleMakeValue.TabIndex = 3;
             // 
             // vehicleColorLabel
@@ -368,7 +369,7 @@ namespace AutoServiceSystemUI
             this.vehicleColorLabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.vehicleColorLabel.Location = new System.Drawing.Point(43, 339);
             this.vehicleColorLabel.Name = "vehicleColorLabel";
-            this.vehicleColorLabel.Size = new System.Drawing.Size(60, 28);
+            this.vehicleColorLabel.Size = new System.Drawing.Size(48, 21);
             this.vehicleColorLabel.TabIndex = 2;
             this.vehicleColorLabel.Text = "Color";
             // 
@@ -379,7 +380,7 @@ namespace AutoServiceSystemUI
             this.vehicleIdentificationNumberValue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.vehicleIdentificationNumberValue.Location = new System.Drawing.Point(43, 98);
             this.vehicleIdentificationNumberValue.Name = "vehicleIdentificationNumberValue";
-            this.vehicleIdentificationNumberValue.Size = new System.Drawing.Size(267, 34);
+            this.vehicleIdentificationNumberValue.Size = new System.Drawing.Size(267, 29);
             this.vehicleIdentificationNumberValue.TabIndex = 1;
             // 
             // vehicleIndentificationNumberLabel
@@ -388,7 +389,7 @@ namespace AutoServiceSystemUI
             this.vehicleIndentificationNumberLabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.vehicleIndentificationNumberLabel.Location = new System.Drawing.Point(43, 67);
             this.vehicleIndentificationNumberLabel.Name = "vehicleIndentificationNumberLabel";
-            this.vehicleIndentificationNumberLabel.Size = new System.Drawing.Size(270, 28);
+            this.vehicleIndentificationNumberLabel.Size = new System.Drawing.Size(215, 21);
             this.vehicleIndentificationNumberLabel.TabIndex = 0;
             this.vehicleIndentificationNumberLabel.Text = "Vehicle Identification Number";
             // 
@@ -397,10 +398,10 @@ namespace AutoServiceSystemUI
             this.clientVehicleListBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.clientVehicleListBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.clientVehicleListBox.FormattingEnabled = true;
-            this.clientVehicleListBox.ItemHeight = 37;
+            this.clientVehicleListBox.ItemHeight = 30;
             this.clientVehicleListBox.Location = new System.Drawing.Point(94, 264);
             this.clientVehicleListBox.Name = "clientVehicleListBox";
-            this.clientVehicleListBox.Size = new System.Drawing.Size(355, 337);
+            this.clientVehicleListBox.Size = new System.Drawing.Size(355, 334);
             this.clientVehicleListBox.TabIndex = 21;
             this.clientVehicleListBox.SelectedIndexChanged += new System.EventHandler(this.clientVehicleListBox_SelectedIndexChanged);
             // 
@@ -429,12 +430,24 @@ namespace AutoServiceSystemUI
             this.createClientButton.UseVisualStyleBackColor = false;
             this.createClientButton.Click += new System.EventHandler(this.createClientButton_Click);
             // 
+            // createNewVehicleLink
+            // 
+            this.createNewVehicleLink.AutoSize = true;
+            this.createNewVehicleLink.Location = new System.Drawing.Point(330, 142);
+            this.createNewVehicleLink.Name = "createNewVehicleLink";
+            this.createNewVehicleLink.Size = new System.Drawing.Size(119, 30);
+            this.createNewVehicleLink.TabIndex = 24;
+            this.createNewVehicleLink.TabStop = true;
+            this.createNewVehicleLink.Text = "create new";
+            this.createNewVehicleLink.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.createNewVehicleLink_LinkClicked);
+            // 
             // CreateClientForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 37F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 30F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.ClientSize = new System.Drawing.Size(1439, 845);
+            this.Controls.Add(this.createNewVehicleLink);
             this.Controls.Add(this.createClientButton);
             this.Controls.Add(this.removeSelectedVehicleButton);
             this.Controls.Add(this.clientVehicleListBox);
@@ -504,5 +517,6 @@ namespace AutoServiceSystemUI
         private System.Windows.Forms.ListBox clientVehicleListBox;
         private System.Windows.Forms.Button removeSelectedVehicleButton;
         private System.Windows.Forms.Button createClientButton;
+        private System.Windows.Forms.LinkLabel createNewVehicleLink;
     }
 }

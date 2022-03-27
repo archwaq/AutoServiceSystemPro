@@ -44,5 +44,19 @@ namespace AutoServiceSystemLibrary.Models
             }
         }
 
+        public VehicleModel()
+        {
+
+        }
+
+        public VehicleModel(string vin, string plate, string make, string model, string color)
+        {
+            VehicleIdentificationNumber = vin;
+            Plate = plate;
+            Make = make;
+            Model = model;
+            Color = color;
+        }
+
     }
 }

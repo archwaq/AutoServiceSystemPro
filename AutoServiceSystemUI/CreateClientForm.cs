@@ -13,10 +13,11 @@ using System.Windows.Forms;
 
 namespace AutoServiceSystemUI
 {
-    public partial class CreateClientForm : Form
+    public partial class CreateClientForm : Form, IVehicleRequester
     {
         private List<VehicleModel> applyClientVehicle = GlobalConfig.Connection.GetVehicle_All();
         private List<VehicleModel> selectedAcquisition = new List<VehicleModel>();
+
         private IClientRequester callingForm;
         public CreateClientForm(IClientRequester caller)
         {
@@ -284,6 +285,18 @@ namespace AutoServiceSystemUI
         private void clientVehicleListBox_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        public void VehicleComplete(VehicleModel model)
+        {
+            applyClientVehicle.Add(model);
+            WireUpLists();
+        }
+
+        private void createNewVehicleLink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            CreateVehicleForm frm = new CreateVehicleForm(this);
+            frm.Show();
         }
     }
 }
