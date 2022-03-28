@@ -47,7 +47,7 @@ namespace AutoServiceSystemUI
             this.headerLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.headerLabel.Location = new System.Drawing.Point(33, 30);
             this.headerLabel.Name = "headerLabel";
-            this.headerLabel.Size = new System.Drawing.Size(269, 59);
+            this.headerLabel.Size = new System.Drawing.Size(219, 47);
             this.headerLabel.TabIndex = 2;
             this.headerLabel.Text = "Create Repair";
             // 
@@ -68,7 +68,7 @@ namespace AutoServiceSystemUI
             this.repairDescriptionLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.repairDescriptionLabel.Location = new System.Drawing.Point(75, 294);
             this.repairDescriptionLabel.Name = "repairDescriptionLabel";
-            this.repairDescriptionLabel.Size = new System.Drawing.Size(158, 38);
+            this.repairDescriptionLabel.Size = new System.Drawing.Size(122, 30);
             this.repairDescriptionLabel.TabIndex = 21;
             this.repairDescriptionLabel.Text = "Description";
             // 
@@ -78,7 +78,7 @@ namespace AutoServiceSystemUI
             this.repairPriceValue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.repairPriceValue.Location = new System.Drawing.Point(82, 248);
             this.repairPriceValue.Name = "repairPriceValue";
-            this.repairPriceValue.Size = new System.Drawing.Size(410, 43);
+            this.repairPriceValue.Size = new System.Drawing.Size(410, 36);
             this.repairPriceValue.TabIndex = 20;
             // 
             // repairPriceLabel
@@ -87,7 +87,7 @@ namespace AutoServiceSystemUI
             this.repairPriceLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.repairPriceLabel.Location = new System.Drawing.Point(75, 207);
             this.repairPriceLabel.Name = "repairPriceLabel";
-            this.repairPriceLabel.Size = new System.Drawing.Size(78, 38);
+            this.repairPriceLabel.Size = new System.Drawing.Size(60, 30);
             this.repairPriceLabel.TabIndex = 19;
             this.repairPriceLabel.Text = "Price";
             // 
@@ -97,7 +97,7 @@ namespace AutoServiceSystemUI
             this.repairCreatedDateValue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.repairCreatedDateValue.Location = new System.Drawing.Point(82, 161);
             this.repairCreatedDateValue.Name = "repairCreatedDateValue";
-            this.repairCreatedDateValue.Size = new System.Drawing.Size(410, 43);
+            this.repairCreatedDateValue.Size = new System.Drawing.Size(410, 36);
             this.repairCreatedDateValue.TabIndex = 18;
             // 
             // repairCreatedDateLabel
@@ -106,14 +106,14 @@ namespace AutoServiceSystemUI
             this.repairCreatedDateLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.repairCreatedDateLabel.Location = new System.Drawing.Point(75, 120);
             this.repairCreatedDateLabel.Name = "repairCreatedDateLabel";
-            this.repairCreatedDateLabel.Size = new System.Drawing.Size(75, 38);
+            this.repairCreatedDateLabel.Size = new System.Drawing.Size(58, 30);
             this.repairCreatedDateLabel.TabIndex = 17;
             this.repairCreatedDateLabel.Text = "Date";
             // 
             // createRepairButton
             // 
             this.createRepairButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.createRepairButton.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.createRepairButton.Font = new System.Drawing.Font("Segoe UI", 16.2F);
             this.createRepairButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.createRepairButton.Location = new System.Drawing.Point(135, 460);
             this.createRepairButton.Name = "createRepairButton";
@@ -125,7 +125,7 @@ namespace AutoServiceSystemUI
             // 
             // CreateRepairForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 37F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 30F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.ClientSize = new System.Drawing.Size(594, 635);

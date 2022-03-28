@@ -54,7 +54,7 @@ namespace AutoServiceSystemUI
             this.headerLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.headerLabel.Location = new System.Drawing.Point(21, 24);
             this.headerLabel.Name = "headerLabel";
-            this.headerLabel.Size = new System.Drawing.Size(284, 59);
+            this.headerLabel.Size = new System.Drawing.Size(232, 47);
             this.headerLabel.TabIndex = 0;
             this.headerLabel.Text = "Create Service";
             // 
@@ -64,7 +64,7 @@ namespace AutoServiceSystemUI
             this.serviceDescriptionLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.serviceDescriptionLabel.Location = new System.Drawing.Point(61, 137);
             this.serviceDescriptionLabel.Name = "serviceDescriptionLabel";
-            this.serviceDescriptionLabel.Size = new System.Drawing.Size(158, 38);
+            this.serviceDescriptionLabel.Size = new System.Drawing.Size(122, 30);
             this.serviceDescriptionLabel.TabIndex = 1;
             this.serviceDescriptionLabel.Text = "Description";
             // 
@@ -74,7 +74,7 @@ namespace AutoServiceSystemUI
             this.serviceDescriptionValue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.serviceDescriptionValue.Location = new System.Drawing.Point(68, 191);
             this.serviceDescriptionValue.Name = "serviceDescriptionValue";
-            this.serviceDescriptionValue.Size = new System.Drawing.Size(377, 43);
+            this.serviceDescriptionValue.Size = new System.Drawing.Size(377, 36);
             this.serviceDescriptionValue.TabIndex = 2;
             // 
             // selectClientDropDown
@@ -84,7 +84,7 @@ namespace AutoServiceSystemUI
             this.selectClientDropDown.FormattingEnabled = true;
             this.selectClientDropDown.Location = new System.Drawing.Point(68, 375);
             this.selectClientDropDown.Name = "selectClientDropDown";
-            this.selectClientDropDown.Size = new System.Drawing.Size(377, 45);
+            this.selectClientDropDown.Size = new System.Drawing.Size(377, 38);
             this.selectClientDropDown.TabIndex = 3;
             // 
             // selectClientLabel
@@ -93,7 +93,7 @@ namespace AutoServiceSystemUI
             this.selectClientLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.selectClientLabel.Location = new System.Drawing.Point(61, 334);
             this.selectClientLabel.Name = "selectClientLabel";
-            this.selectClientLabel.Size = new System.Drawing.Size(170, 38);
+            this.selectClientLabel.Size = new System.Drawing.Size(132, 30);
             this.selectClientLabel.TabIndex = 4;
             this.selectClientLabel.Text = "Select Client";
             // 
@@ -102,7 +102,7 @@ namespace AutoServiceSystemUI
             this.createNewClientLink.AutoSize = true;
             this.createNewClientLink.Location = new System.Drawing.Point(293, 334);
             this.createNewClientLink.Name = "createNewClientLink";
-            this.createNewClientLink.Size = new System.Drawing.Size(152, 38);
+            this.createNewClientLink.Size = new System.Drawing.Size(119, 30);
             this.createNewClientLink.TabIndex = 5;
             this.createNewClientLink.TabStop = true;
             this.createNewClientLink.Text = "create new";
@@ -139,10 +139,10 @@ namespace AutoServiceSystemUI
             this.serviceClientListBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.serviceClientListBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.serviceClientListBox.FormattingEnabled = true;
-            this.serviceClientListBox.ItemHeight = 37;
+            this.serviceClientListBox.ItemHeight = 30;
             this.serviceClientListBox.Location = new System.Drawing.Point(708, 191);
             this.serviceClientListBox.Name = "serviceClientListBox";
-            this.serviceClientListBox.Size = new System.Drawing.Size(434, 152);
+            this.serviceClientListBox.Size = new System.Drawing.Size(434, 124);
             this.serviceClientListBox.TabIndex = 8;
             // 
             // servicedClientLabel
@@ -151,7 +151,7 @@ namespace AutoServiceSystemUI
             this.servicedClientLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.servicedClientLabel.Location = new System.Drawing.Point(701, 137);
             this.servicedClientLabel.Name = "servicedClientLabel";
-            this.servicedClientLabel.Size = new System.Drawing.Size(200, 38);
+            this.servicedClientLabel.Size = new System.Drawing.Size(157, 30);
             this.servicedClientLabel.TabIndex = 9;
             this.servicedClientLabel.Text = "Serviced Client";
             // 
@@ -174,7 +174,7 @@ namespace AutoServiceSystemUI
             this.repairLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.repairLabel.Location = new System.Drawing.Point(701, 394);
             this.repairLabel.Name = "repairLabel";
-            this.repairLabel.Size = new System.Drawing.Size(95, 38);
+            this.repairLabel.Size = new System.Drawing.Size(74, 30);
             this.repairLabel.TabIndex = 12;
             this.repairLabel.Text = "Repair";
             // 
@@ -183,10 +183,10 @@ namespace AutoServiceSystemUI
             this.repairListBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.repairListBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.repairListBox.FormattingEnabled = true;
-            this.repairListBox.ItemHeight = 37;
+            this.repairListBox.ItemHeight = 30;
             this.repairListBox.Location = new System.Drawing.Point(708, 449);
             this.repairListBox.Name = "repairListBox";
-            this.repairListBox.Size = new System.Drawing.Size(434, 152);
+            this.repairListBox.Size = new System.Drawing.Size(434, 124);
             this.repairListBox.TabIndex = 11;
             // 
             // removeSelectedClientButton
@@ -216,7 +216,7 @@ namespace AutoServiceSystemUI
             // 
             // CreateServiceForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 37F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 30F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.ClientSize = new System.Drawing.Size(1408, 800);
