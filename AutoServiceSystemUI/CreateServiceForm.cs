@@ -124,6 +124,10 @@ namespace AutoServiceSystemUI
                 // Create all of the clients entries
                 GlobalConfig.Connection.CreateService(s);
 
+                serviceDescriptionValue.Text = "";
+                selectedRepair.Clear();
+                selectedClient.Clear();
+
                 WireUpLists();
 
             }

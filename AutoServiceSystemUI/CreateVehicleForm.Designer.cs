@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CreateVehicleForm));
             this.createVehicleButton = new System.Windows.Forms.Button();
             this.vehicleModelValue = new System.Windows.Forms.TextBox();
             this.vehicleModelLabel = new System.Windows.Forms.Label();
@@ -190,6 +191,7 @@
             this.Controls.Add(this.vehicleMakeLabel);
             this.Controls.Add(this.vehiclePlateValue);
             this.Font = new System.Drawing.Font("Segoe UI", 16.2F);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
             this.Name = "CreateVehicleForm";
             this.Text = "Create Vehicle";

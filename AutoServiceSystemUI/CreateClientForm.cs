@@ -49,94 +49,6 @@ namespace AutoServiceSystemUI
 
         }
 
-        private void createVehicleButton_Click(object sender, EventArgs e)
-        {
-            if (ValidateForm())
-            {
-                VehicleModel v = new VehicleModel();
-
-                v.VehicleIdentificationNumber = vehicleIdentificationNumberValue.Text;
-                v.Plate = vehiclePlateValue.Text;
-                v.Make = vehicleMakeValue.Text;
-                v.Model = vehicleModelValue.Text;
-                v.Color = vehicleColorValue.Text;
-
-                GlobalConfig.Connection.CreateVehicle(v);
-
-                selectedAcquisition.Add(v);
-
-                WireUpLists();
-
-                vehicleIdentificationNumberValue.Text = "";
-                vehiclePlateValue.Text = "";
-                vehicleMakeValue.Text = "";
-                vehicleModelValue.Text = "";
-                vehicleColorValue.Text = "";
-
-            }
-            else
-            {
-                MessageBox.Show("You need to fill properly in all of the vehicle fields.", "Create Vehicle", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-        }
-
-        private bool ValidateForm()
-        {
-            bool output = true;
-
-            if (vehicleIdentificationNumberValue.Text.Length == 0)
-            {
-                output = false;
-            }
-
-            if (vehicleIdentificationNumberValue.Text.Length > 17)
-            {
-                output = false;
-            }
-
-            if (vehiclePlateValue.Text.Length == 0)
-            {
-                output = false;
-            }
-
-            if (vehiclePlateValue.Text.Length > 10)
-            {
-                output = false;
-            }
-
-            if (vehicleMakeValue.Text.Length == 0)
-            {
-                output = false;
-            }
-
-            if (vehicleMakeValue.Text.Length > 20)
-            {
-                output = false;
-            }
-
-            if (vehicleModelValue.Text.Length == 0)
-            {
-                output = false;
-            }
-
-            if (vehicleModelValue.Text.Length > 50)
-            {
-                output = false;
-            }
-
-            if (vehicleColorValue.Text.Length == 0)
-            {
-                output = false;
-            }
-
-            if (vehicleColorValue.Text.Length > 20)
-            {
-                output = false;
-            }
-
-            return output;
-        }
-
         private void addSelectedVehicleAcquisitionButton_Click(object sender, EventArgs e)
         {
             VehicleModel v = (VehicleModel)selectVehicleAcquisitionDropDown.SelectedItem;
@@ -182,8 +94,8 @@ namespace AutoServiceSystemUI
 
                 // TODO - if we aren't closing this form after creation, reset the form
                 callingForm.ClientComplete(c);
-                CreateServiceForm frm = new CreateServiceForm();
-                frm.Show();
+                //CreateServiceForm frm = new CreateServiceForm();
+                //frm.Show();
                 this.Close();
             }
             else
