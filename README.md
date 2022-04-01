@@ -1,8 +1,9 @@
 # AutoServiceSystemPro
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Technologys Utilized: WinForms, Class Libraries, SQL Database, Text File Storage, Dapper, Linq, Interfaces
+Technologies Utilized: Windows Forms, Class Libraries, SQL Database, Text File Storage, Dapper, Linq, Interfaces
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Application that handles organization of Automotive maintenance.
+AutoServiceSystemPro is Auto repair software designed for migration on-premises RDS environment. Developed to handle
+entry organization of customers that request vehicle maintenance.
 
 Copyright / 2022 / Evelin Kolev 
 
